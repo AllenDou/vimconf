@@ -71,9 +71,11 @@ let Tlist_Auto_Open = 1
 let Tlist_Show_One_File = 1
 let Tlist_Exit_OnlyWindow = 1
 let Tlist_Use_Right_Window = 1
+let Tlist_WinWidth=45
 nmap <F7> :NERDTreeToggle<CR>
 nmap <F8> :A<CR>
 nmap <F9> :IH<CR>
+nmap <C-F12> :cs find s <C-R>=expand("<cword>")<CR><CR>
 nmap <F12> :cs find c <C-R>=expand("<cword>")<CR><CR>
 
 nmap <C-\>s :cs find s <C-R>=expand("<cword>")<CR><CR>
