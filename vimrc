@@ -65,13 +65,13 @@ let &guicursor = &guicursor . ",a:blinkon0"
 
 set number
 set tabstop=4
-set autoindent
+"set autoindent
 let Tlist_Ctags_Cmd = '/usr/bin/ctags'
 let Tlist_Auto_Open = 1
 let Tlist_Show_One_File = 1
 let Tlist_Exit_OnlyWindow = 1
 let Tlist_Use_Right_Window = 1
-let Tlist_WinWidth=45
+"let Tlist_WinWidth=45
 nmap <F7> :NERDTreeToggle<CR>
 nmap <F8> :A<CR>
 nmap <F9> :IH<CR>
